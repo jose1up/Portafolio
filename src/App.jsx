@@ -5,28 +5,38 @@ import { Contact } from "./components/contact/Contact";
 import { Headers } from "./components/headers/headers";
 import { Proectos } from "./components/proyectos/Proectos";
 import { Skills } from "./components/skills/skills";
+import { Element } from "react-scroll";
 
 function App() {
   return (
-
     <div className={s.App}>
       <div className={s.Contact}>
-        <Contact />
+        <Element name="Contact">
+          <Contact />
+        </Element>
       </div>
       <div className={s.Headers}>
         <Headers />
       </div>
       <div className={s.Componente}>
-        <Componente />
+        <Element name="Home">
+          <Componente />
+        </Element>
       </div>
       <div className={s.Skills}>
-        <Skills />
+        <Element name="Skills">
+          <Skills />
+        </Element>
       </div>
       <div className={s.Avatar}>
-        <Avatar />
+        <Element name="Avatar">
+          <Avatar />
+        </Element>
       </div>
       <div className={s.Proectos}>
-        <Proectos />
+        <Element name="Proyecto">
+          <Proectos />
+        </Element>
       </div>
     </div>
   );
