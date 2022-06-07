@@ -5,7 +5,6 @@ import { Contact } from "./components/contact/Contact";
 import { Headers } from "./components/headers/headers";
 import { Proectos } from "./components/proyectos/Proectos";
 import { Skills } from "./components/skills/skills";
-import Particles from "react-particles-js";
 
 function App() {
   return (
