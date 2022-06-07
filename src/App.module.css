@@ -1,0 +1,48 @@
+:root {
+  --color_fondo: #2c2424;
+  ---color_texto_header: #dbc5c5;
+  background-color: var(--color_fondo);
+}
+
+.App {
+  background-color: var(--color_fondo);
+  height: 100vh;
+  width: 100vw;
+}
+
+.Headers {
+  position: absolute;
+  width: 129px;
+  height: 50px;
+  left: 267px;
+  top: 50px;
+}
+.Componente {
+  position: absolute;
+  width: 650px;
+  height: 153px;
+  left: 399px;
+  top: 190px;
+}
+.Skills {
+  position: absolute;
+  width: 66.76px;
+  height: 20.06px;
+  left: 624.67px;
+  top: 362.1px;
+}
+.Avatar {
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  left: -160px;
+  top: 83px;
+}
+.Proectos {
+  position: absolute;
+  width: 125.22px;
+  height: 23.47px;
+  left: 624.2px;
+  top: 469.01px;
+  padding-top: 21px;
+}
