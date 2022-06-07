@@ -1,6 +1,5 @@
 import React from "react";
-import JoseMiguelAlcaraz from "../../../icons/JoseMiguel.png";
-
+import JoseMiguelAlcaraz from "../../../icons/joseMiguel.png"
 export const Componente = () => {
   return (
     <div>
