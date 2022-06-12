@@ -1,6 +1,8 @@
 :root {
   --color_fondo: #2c2424;
   ---color_texto_header: #dbc5c5;
+  --color_btn:  #276f2a;
+  --color_btn_hover: #2c4729;
   background-color: var(--color_fondo);
 }
 

@@ -1,8 +1,8 @@
 import React from "react";
 import s from "./headers.module.css";
-import { Skills } from "../skills/skills";
-import { Proectos } from "../proyectos/Proectos";
 import { Link } from "react-scroll";
+import CV from "../../../icons/JoseMiguelAlcarazDesarrollador.pdf";
+import iconDownload from "../../../icons/Vector.png";
 
 export const Headers = () => {
   return (
@@ -20,6 +20,9 @@ export const Headers = () => {
         <Link smooth={true} to="Contact">
           <button className={s.btnHome}>Contact</button>
         </Link>
+        <button className={s.btn}>
+         <img src={iconDownload} alt="downloand" className={s.iconDownload} /><a href={CV} className={s.aBtn}> CV </a>
+        </button>
       </header>
     </div>
   );
