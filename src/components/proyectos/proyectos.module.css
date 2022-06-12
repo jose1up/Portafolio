@@ -11,3 +11,8 @@
   font-style: italic;
   font-size: 19px;
 }
+.contenedorProyecto {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
