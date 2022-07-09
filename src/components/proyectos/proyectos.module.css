@@ -16,4 +16,8 @@
   flex-wrap: nowrap;
   justify-content: flex-start;
 }
-
+.contenedorProyecto2 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}

@@ -3,11 +3,13 @@ import s from "./proyectos.module.css";
 import ReactPlayer from "react-player";
 import bookflix from "../../../icons/bookflix 1.png";
 import Todo from "../../../icons/todo.png";
+import AppPokemon from "../../../icons/AppPokemonReact.png"
 
 export const Proectos = () => {
   let urlBookflix = "https://booksflix.vercel.app/";
   let primerProyecto = "https://youtu.be/uBZSd2uPU9U";
   let ToDo = "https://todo-drab-five.vercel.app/";
+  let AppPokemonReact = "https://www.youtube.com/watch?v=Za_VcAojAvU";
   return (
     <>
       <h2 className={s.h2}>Project</h2>
@@ -29,11 +31,19 @@ export const Proectos = () => {
           </a>
         </div>
       </div>
+      <div className={s.contenedorProyecto2}>
       <div className={s.ToDo}>
         <h3 className={s.h3}>ToDo</h3>
         <a href={ToDo}>
           <img src={Todo} alt="Todo" width="250PX" height="150px" />
         </a>
+      </div>
+      <div className={s.AppPokemonReact}>
+        <h3 className={s.h3}>AppPokemon React Native</h3>
+        <a href={AppPokemonReact}>
+          <img src={AppPokemon} alt="AppPokemon" width="250PX" height="150px" />
+        </a>
+      </div>
       </div>
     </>
   );
