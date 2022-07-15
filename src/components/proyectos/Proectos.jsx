@@ -40,9 +40,14 @@ export const Proectos = () => {
       </div>
       <div className={s.AppPokemonReact}>
         <h3 className={s.h3}>AppPokemon React Native</h3>
-        <a href={AppPokemonReact}>
-          <img src={AppPokemon} alt="AppPokemon" width="250PX" height="150px" />
-        </a>
+        <ReactPlayer
+            url={AppPokemonReact}
+            controls={true}
+            muted
+            width="250px"
+            height="150px"
+          />
+        
       </div>
       </div>
     </div>
