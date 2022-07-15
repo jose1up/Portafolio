@@ -3,6 +3,7 @@ import s from "./headers.module.css";
 import { Link } from "react-scroll";
 import CV from "../../../icons/JoseMiguelAlcarazDesarrollador.pdf";
 import iconDownload from "../../../icons/Vector.png";
+import { MenuHamburgesa } from "../MenuHamburgesa/MenuHamburgesa";
 
 export const Headers = () => {
   return (
@@ -24,6 +25,7 @@ export const Headers = () => {
          <img src={iconDownload} alt="downloand" className={s.iconDownload} /><a href={CV} className={s.aBtn}> CV </a>
         </button>
       </header>
+      <MenuHamburgesa/>
     </div>
   );
 };

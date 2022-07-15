@@ -11,7 +11,7 @@ export const Proectos = () => {
   let ToDo = "https://todo-drab-five.vercel.app/";
   let AppPokemonReact = "https://www.youtube.com/watch?v=Za_VcAojAvU";
   return (
-    <>
+    <div className={s.container}>
       <h2 className={s.h2}>Project</h2>
       <div className={s.contenedorProyecto}>
         <div className={s.appPokemon}>
@@ -45,6 +45,6 @@ export const Proectos = () => {
         </a>
       </div>
       </div>
-    </>
+    </div>
   );
 };
