@@ -26,3 +26,29 @@
   flex-wrap: wrap;
   align-items: flex-start;
 }
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .contenedorProyecto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    padding: auto;
+  }
+  .contenedorProyecto2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    padding: auto;
+  }
+  .React {
+    padding: 1rem;
+  }
+}

@@ -12,9 +12,9 @@ export const Proectos = () => {
   let AppPokemonReact = "https://www.youtube.com/watch?v=Za_VcAojAvU";
   return (
     <div className={s.container}>
-      <h2 className={s.h2}>Project</h2>
+      <h2 className={s.h2}>Project</h2 >
       <div className={s.contenedorProyecto}>
-        <div className={s.appPokemon}>
+       <div className={s.appPokemon}> 
           <h3 className={s.h3}>App pokemon</h3>
           <ReactPlayer
             url={primerProyecto}
@@ -22,6 +22,7 @@ export const Proectos = () => {
             muted
             width="250px"
             height="150px"
+            className={s.React}
           />
         </div>
         <div className={s.bookflix}>
@@ -46,6 +47,7 @@ export const Proectos = () => {
             muted
             width="250px"
             height="150px"
+            className={s.React}
           />
         
       </div>

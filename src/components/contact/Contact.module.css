@@ -1,6 +1,8 @@
-.Contact {
-  position: fixed;
+@media (min-width: 800px) {
+  .Contact {
+    position: fixed;
     left: 1186px;
     top: 607px;
     right: -117px;
+  }
 }

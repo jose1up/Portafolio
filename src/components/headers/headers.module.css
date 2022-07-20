@@ -21,6 +21,7 @@ a {
   color: var(---color_texto_header);
   font-weight: 900;
   font-size: 16px;
+  cursor: pointer;
 }
 
 .btnHome:hover {
@@ -43,6 +44,7 @@ a {
   align-items: center;
   display: flex;
   flex-direction: row;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -56,8 +58,31 @@ a {
   padding-bottom: 7.5px;
 }
 
-.aBtn{
+.aBtn {
   padding-left: 10px;
   padding-right: 20px;
+}
 
+@media (max-width: 768px) {
+  .Headers {
+    display: none;
+  }
+  .ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+    width: 80%;
+    height: 90vh;
+    background-color: var(--color_fondo);
+    flex-direction: column;
+  }
+  .btn {
+    margin-right: 1.5rem;
+  }
+}
+@media (min-width: 800px) {
+  .Hamburger {
+    display: none;
+  }
 }

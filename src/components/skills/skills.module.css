@@ -5,3 +5,18 @@
   font-size: 24px;
   line-height: 36px;
 }
+
+@media (max-width: 768px) {
+  .skills{
+    width: 100%;
+    height: auto;
+  }
+  .logoDeSkill {
+    width: inherit;
+    height: auto;
+  }
+  
+}
+
+
+
